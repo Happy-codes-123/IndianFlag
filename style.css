@@ -1,0 +1,58 @@
+.divs-1{
+     background-color:orangered;
+     height: 200px;
+}
+.divs-2{
+     background-color: rgb(255, 255, 255);
+     height: 200px;
+}
+.divs-3{
+     background-color: rgb(60, 95, 7);
+     height: 200px;
+}
+.circle{
+     height: 180px;
+     width: 180px;
+     border-radius: 50%;
+     border: 10px solid blue;
+}
+.innercircle{
+     background-color: blue;
+     height: 50px;
+     width: 50px;
+     border-radius: 50%;
+     position: relative;
+     top: 65px;
+}
+.spikes{
+     height: 10px;
+     width: 165px;
+     background-color: blue;
+     border-radius: 5000px 00px 5000px 00px;
+     rotate: -45deg;
+     position: relative;
+     right: 60px;
+     top: 15px;
+     animation: spike 1s infinite linear;
+
+}
+.spikes-2{
+     height: 10px;
+     width: 165px;
+     background-color: blue;
+     border-radius: 5000px 00px 5000px 00px;
+     rotate: 45deg;
+     position: relative;
+     right: 60px;
+     top: 15px;
+     animation: spike 1s infinite linear;
+
+}
+@keyframes  spike{
+     0%,100%{
+          rotate: 0deg;
+     }
+     50%{
+          rotate: -360deg;
+     }
+}
